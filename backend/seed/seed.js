@@ -40,9 +40,10 @@ const run = async () => {
   ]);
 
   const passwordHash = await bcrypt.hash("password123", 10);
+     const adminPasswordHash = await bcrypt.hash(process.env.ADMIN_PASSWORD || "password123", 10);
 
   const [admin, hostAva, hostLiam, guestMaya, guestSam] = await User.create([
-    { name: "Demo Admin", email: "admin@stayease.demo", password: passwordHash, role: "admin" },
+    { name: "Demo Admin", email: "admin@stayease.demo", password: adminPasswordHash, role: "admin" },
     { name: "Ava Bennett", email: "ava.host@stayease.demo", password: passwordHash, role: "host" },
     { name: "Liam Torres", email: "liam.host@stayease.demo", password: passwordHash, role: "host" },
     { name: "Maya Chen", email: "maya.guest@stayease.demo", password: passwordHash, role: "guest" },
