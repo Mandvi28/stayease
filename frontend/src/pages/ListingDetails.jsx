@@ -7,6 +7,7 @@ import LoadingSpinner from "../components/LoadingSpinner.jsx";
 import api from "../services/api.js";
 import { useAuth } from "../context/AuthContext.jsx";
 import { formatCurrency, formatDate, nightsBetween } from "../utils/format.js";
+import ImageCarousel from "../components/ImageCarousel.jsx";
 
 const ListingDetails = () => {
   const { id } = useParams();
@@ -165,6 +166,13 @@ const ListingDetails = () => {
         </button>
       </div>
 
+
+
+
+
+
+
+{/*
       <div className="mt-6 grid grid-cols-4 grid-rows-2 gap-2 overflow-hidden rounded-2xl">
         {images.length ? (
           images.slice(0, 5).map((img, idx) => (
@@ -183,6 +191,12 @@ const ListingDetails = () => {
           </div>
         )}
       </div>
+*/}
+
+<ImageCarousel images={images} className="mt-6 aspect-[16/9] w-full rounded-2xl" />
+
+
+
 
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2">
