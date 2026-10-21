@@ -28,7 +28,7 @@ const Login = () => {
     <div className="mx-auto flex min-h-[70vh] max-w-md flex-col justify-center px-4 py-16 sm:px-6">
       <h1 className="text-2xl font-medium text-ink-800">Log in to StayEase</h1>
       <p className="mt-1 text-sm text-ink-500">
-        Demo accounts (password: password123): maya.guest@stayease.demo, ava.host@stayease.demo, admin@stayease.demo
+        Demo accounts (password: password123): maya.guest@stayease.demo, ava.host@stayease.demo,
       </p>
       <form onSubmit={handleSubmit} className="mt-6 space-y-4">
         <div>

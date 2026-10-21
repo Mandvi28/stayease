@@ -169,10 +169,10 @@ npm run seed
 ```
 This creates 5 demo users and 6 sample listings with placeholder images (via picsum.photos), plus a past booking with a review and an upcoming booking, so every feature has real data to show immediately.
 
-Demo accounts (all use password `password123`):
+   Demo guest and host accounts (password `password123`):
 | Role | Email |
 |---|---|
-| Admin | admin@stayease.demo |
+| Admin | Private (credentials not shared publicly) |
 | Host | ava.host@stayease.demo |
 | Host | liam.host@stayease.demo |
 | Guest | maya.guest@stayease.demo |
