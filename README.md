@@ -1,6 +1,12 @@
 # StayEase — Accommodation Booking Platform
 - **Live demo:** https://stayease-wine.vercel.app
 - **API:** https://stayease-9epa.onrender.com/api/health
+- **GitHub repository:** https://github.com/Mandvi28/stayease
+   ## Screenshots
+
+   ![Home page](docs/screenshots/home.png)
+   ![Listing details](docs/screenshots/listing.png)
+   ![Host dashboard](docs/screenshots/dashboard.png)
 
 StayEase is a full-stack, Airbnb-inspired accommodation booking platform built as a portfolio project. It is an original design and codebase — it does not use Airbnb's branding, logo, or copyrighted assets.
 
